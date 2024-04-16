@@ -1,0 +1,65 @@
+.acknowledgement .content {
+  overflow: auto;
+}
+.acknowledgement .content .project-name {
+  position: relative;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 50px;
+}
+.acknowledgement .content p {
+  margin: 0 300px;
+  font-size: 17px;
+  text-align: center;
+}
+.acknowledgement .content .np-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+  margin: 0 200px;
+}
+.acknowledgement .content .np-btns .fa-arrow-left-long {
+  margin-right: 5px;
+}
+.acknowledgement .content .np-btns .fa-arrow-right-long {
+  margin-left: 5px;
+}
+.acknowledgement .content .np-btns .btn {
+  padding: 15px 20px;
+  background-color: var(--accent-color);
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.4s ease-in;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.acknowledgement .content .np-btns .btn:hover {
+  background-color: var(--accent-color-hover);
+}
+.acknowledgement .content .np-btns .btn:active {
+  background-color: var(--accent-color-active);
+}
+.acknowledgement .content .sub-by {
+  font-size: 22px;
+  font-weight: bold;
+  text-underline-offset: 3px;
+  color: white;
+}
+.acknowledgement .content .team-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.acknowledgement .content .team-members p {
+  margin: 0 20px !important;
+  color: white;
+  background-size: 100% 40%;
+}
+.acknowledgement .content .team-members p:hover {
+  background-size: 100% 88%;
+}/*# sourceMappingURL=acknowledgement.css.map */
